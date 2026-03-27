@@ -1,0 +1,42 @@
+
+<!-- <app-header [Bharath]="headerValue()"/> -->
+
+<!-- <button (click)="isLoggedIn =!isLoggedIn">Login</button>
+<button (click)="!isLoggedIn">Logout</button>
+
+<p *ngIf="isLoggedIn; else logout">Welcome User</p><ng-template #logout> 
+<p>Please Login again</p>
+</ng-template>
+
+<p *ngFor="let s of students">{{s}}</p> -->
+<!-- 
+
+
+
+<!-- <p>{{title()}}</p>
+<p>{{title1}}</p>
+
+
+ Name: <input type="text" [hidden]="isHidden" placeholder="Type Something..." (keypress)="handleKeyPress($event)">
+<button [disabled]="isDisabled" (click)="handleClick()">Submit</button>
+
+Location: <input type="text" [(ngModel)]="location">
+ <p>{{location}}</p>  -->
+
+ <!-- <p>{{message() | lowercase}}</p>
+ <p>{{money() | currency: 'EUR'}}</p>
+<p>{{ today()| emoji}}</p> -->
+
+<!-- <form #form="ngForm" (ngSubmit)="submit(form)">
+    <h2>Form</h2>
+    <label for="">Name :</label>
+    <input type="text" name="name" placeholder="Type Your Name" ngModel required="">
+    <button type="submit">Submit</button>
+</form>
+
+<p *ngFor="let u of users">{{u}}</p> -->
+<!-- <p>Welcome Home</p> -->
+
+<button><a routerLink="/home/user" routerLinkActive="active">Users</a></button>
+<button><a routerLink="/create-user" routerLinkActive="active">Add User</a></button>
+<router-outlet></router-outlet>

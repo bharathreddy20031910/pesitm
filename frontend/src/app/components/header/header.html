@@ -1,0 +1,13 @@
+<header class="top-nav">
+  <div class="brand">Online Class Platform</div>
+  <nav>
+    <button routerLink="/home/user">Students</button>
+    <button routerLink="/create-user">Add Student</button>
+    <button (click)="logout()" class="logout">Logout</button>
+  </nav>
+</header>
+
+<section class="header-info">
+  <p>Total student records: <strong>{{ users.length }}</strong></p>
+  <button (click)="sendData()" class="info-btn">Notify Teacher</button>
+</section>

@@ -1,0 +1,68 @@
+.home-container {
+  width: min(100%, 960px);
+  margin: 30px auto;
+  padding: 10px;
+}
+
+.home-container h2 {
+  color: #1a73e8;
+  margin-bottom: 12px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.student-card {
+  background: #f8faff;
+  border: 1px solid #d2e1ff;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.student-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.student-header h3 {
+  margin: 0;
+  color: #2f4b70;
+}
+
+.actions {
+  display: flex;
+  gap: 6px;
+}
+
+.actions button,
+.add-btn,
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.actions button {
+  background: #0f76d3;
+  color: white;
+}
+
+.actions button:hover {
+  background: #0a5ab2;
+}
+
+.add-btn {
+  background: #28a745;
+  color: white;
+}
+
+.add-btn:hover {
+  background: #1f7f38;
+}
